@@ -1,0 +1,22 @@
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 5px double white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.glow{
+  box-shadow: 1px 1px 30px 1px pink;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
