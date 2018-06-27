@@ -4,7 +4,8 @@ let submitBtn = document.querySelector('.todobtn');
 
 //eventlistener below add items to the todo list.
 submitBtn.addEventListener('click', e =>{
-  //creating the delete edit button.
+
+  //creating the delete and edit button.
   let deleteBtn = document.createElement("button");
   let editBtn = document.createElement("button");
   let deleteText = document.createTextNode("Delete");
@@ -23,7 +24,7 @@ submitBtn.addEventListener('click', e =>{
   let newLiWithBtn = newLi.appendChild(deleteBtn);
   newLiWithBtn = newLi.appendChild(editBtn);
 
-
+//setting the delete btn eventlistener and moving the item from one list to the other.
 let deleteItem = document.getElementsByClassName('delete');
 
 deleteItem[deleteItem.length-1].addEventListener('click' , e => {
@@ -32,6 +33,7 @@ deleteItem[deleteItem.length-1].addEventListener('click' , e => {
   const listOfDone = document.querySelector(".done-list");
   listOfDone.appendChild(removedChild);
 });
+
 
   document.forms.todoform.reset();
 });
