@@ -2,14 +2,7 @@
     font-family: "Star Wars";
     src: url('../fonts/starwars.ttf');
 }
-@font-face {
-    font-family: "Star Jedi Hollow";
-    src: url('../fonts/star-jedi-hollow.ttf');
-}
-@font-face {
-    font-family: "Star Jedi";
-    src: url('../fonts/star-jedi.ttf');
-}
+
 body{
   background-color: black;
 }
